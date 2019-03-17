@@ -1,4 +1,4 @@
-// contest: Codeforces Round #333 (Div. 1), problem: (A) The Two Routes
+// http://codeforces.com/problemset/problem/601/A
 #include<iostream>
 #include<vector>
 #include<cstring>
