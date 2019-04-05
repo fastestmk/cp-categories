@@ -37,6 +37,7 @@ int main(){
     // lcs size
     //cout << dp[s.size()][t.size()]  << endl; 
 
+    // Printing LCS
     int i = s.size(), j = t.size();
     string ans;
     // iterating in reverse
