@@ -105,3 +105,5 @@ int main(){
 	}
 	cout << comp-1 << endl;
 }
+
+// https://codeforces.com/problemset/problem/277/A
