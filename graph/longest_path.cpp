@@ -30,7 +30,7 @@ int main(){
     //freopen("input.txt", "r", stdin);
     //freopen("out.txt", "w", stdout);
     ios_base::sync_with_stdio(0);
-    //cin.tie(0);
+    cin.tie(0);
 
 
     int N, M;
