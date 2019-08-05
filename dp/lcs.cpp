@@ -1,5 +1,4 @@
 // https://atcoder.jp/contests/dp/tasks/dp_f
-// 'Edit Distance' can also be solve by lcs -> max(a, b) - lcs(a,b)
 #include<iostream>
 #include<vector>
 
