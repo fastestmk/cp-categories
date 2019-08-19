@@ -1,4 +1,7 @@
 // https://atcoder.jp/contests/dp/tasks/dp_f
+
+// this program can be used to " min no of deletion required to convert a string into palindrome"
+// ans = str.size() - dp[n][n], s = orginal string, t = reverse string of orginal
 #include<iostream>
 #include<vector>
 
