@@ -44,7 +44,7 @@ int main(){
     int i = s.size(), j = t.size();
     string ans;
     // iterating in reverse
-    while(i && j){ // i >= 0 && j >= 0
+    while(i && j){ 
         if(s[i-1] == t[j-1]){
             ans = s[i-1]+ans; // concatinating previous element into last string
             --i;
