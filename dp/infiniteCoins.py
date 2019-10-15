@@ -8,6 +8,6 @@ def infiniteCoins(coins, sum):
 	return dp[sum]
 	
 if __name__ == '__main__':
-	coins = list(map(int, input().split()))
+	coins = [int(i) for i in input().split()]
 	sum = int(input())
 	print(infiniteCoins(coins, sum))				

@@ -18,7 +18,7 @@ def solve(A, B, C):
 
 
 
-A = list(map(int, input().split())) #[3, 6, 8, 10, 15]
-B = list(map(int, input().split())) #[1, 5, 12]
-C = list(map(int, input().split())) #[4, 8, 15, 16]
+A = [int(i) for i in input().split()] #[3, 6, 8, 10, 15]
+B = [int(i) for i in input().split()] #[1, 5, 12]
+C = [int(i) for i in input().split()] #[4, 8, 15, 16]
 print(solve(A, B, C))

@@ -26,6 +26,5 @@ def lcs(s, t):
 	print(ans)		
 
 if __name__ == '__main__':
-	s = str(input())
-	t = str(input())
+	s, t = [str(i) for i in input().split()] # take input in one line
 	print(lcs(s,t))					

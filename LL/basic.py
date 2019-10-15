@@ -115,7 +115,4 @@ if __name__ == '__main__':
 	llist.printList()
 	llist.deleteNodeAtPos(5)
 	llist.printList()
-	if llist.search(llist.head, 3) == True:
-		print("yes")
-	else:
-		print("no")	
+	print ("yes") if llist.search(llist.head, 3) else ("no")

@@ -17,7 +17,7 @@ def sol(arr, m):
 	# print(leftInd+window-1)
 
 if __name__  == "__main__":
-	arr = [1, 1, 0, 1, 1, 0, 0, 1, 1, 1]
+	arr = [int(i) for i in input().split()]#[1, 1, 0, 1, 1, 0, 0, 1, 1, 1]
 	m = int(input()) # max no of flips 
 
 	s = sol(arr, m)

@@ -17,6 +17,6 @@ def LIS(seq):
 			ans = i
 	return ans
 
-seq = list(map(int, input().split()))
+seq = [int(i) for i in input().split()]
 print(LIS(seq))				
 

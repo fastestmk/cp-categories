@@ -14,7 +14,7 @@ def threeSum(arr, sum):
 	return False
 
 if __name__ == '__main__':
-	arr = list(map(int, input().split()))
+	arr = [int(i) for i in input().split()]
 	sum = int(input())
 	if(threeSum(arr, sum)):
 		print("triple exist")											
